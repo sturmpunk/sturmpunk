@@ -27,9 +27,9 @@
   </build>
   <distributionManagement>
       <repository>
-        <id>central</id>
+        <id>stage</id>
         <name>burimenko-pc-local</name>
-        <url>http://127.0.0.1/artifactory/stage-local</url>
+        <url>http://127.0.0.1:8081/artifactory/stage</url>
       </repository>
     </distributionManagement>
 </project>
