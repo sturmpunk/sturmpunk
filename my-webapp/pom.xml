@@ -25,11 +25,11 @@
     </plugins>
     <finalName>my-webapp</finalName>
   </build>
-  <distributionManagement>
-      <repository>
-        <id>stage</id>
-        <name>burimenko-pc-local</name>
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>burimenko-pc-releases</name>
         <url>http://127.0.0.1:8081/artifactory/stage</url>
-      </repository>
-    </distributionManagement>
+    </repository>
+</distributionManagement>
 </project>
