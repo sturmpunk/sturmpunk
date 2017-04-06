@@ -1,6 +1,5 @@
 # sturmpunk
-test web app maven project
-
+test web app
 change1
 change2
 change3
