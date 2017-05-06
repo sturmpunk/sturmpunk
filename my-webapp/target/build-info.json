@@ -1,7 +1,7 @@
 {
   "version" : "1.0.1",
   "name" : "git_install",
-  "number" : "14",
+  "number" : "1",
   "type" : "MAVEN",
   "buildAgent" : {
     "name" : "Maven",
@@ -9,25 +9,25 @@
   },
   "agent" : {
     "name" : "Jenkins",
-    "version" : "2.46.1"
+    "version" : "2.46.2"
   },
-  "started" : "2017-04-20T11:26:41.052+0300",
-  "durationMillis" : 1487,
+  "started" : "2017-05-06T12:45:19.524+0300",
+  "durationMillis" : 3541,
   "principal" : "sturm",
   "artifactoryPluginVersion" : "2.10.3",
-  "url" : "http://127.0.0.1:8888/job/git_install/14/",
+  "url" : "http://127.0.0.1:8888/job/git_install/1/",
   "vcs" : [ {
-    "revision" : "59237c23ec39c7afaa612c1647c5916d9834c1b3",
-    "url" : "59237c23ec39c7afaa612c1647c5916d9834c1b3"
+    "revision" : "f0847d14587d0b7fbfe2e54524a6e52c98e165b1",
+    "url" : "f0847d14587d0b7fbfe2e54524a6e52c98e165b1"
   } ],
-  "vcsRevision" : "59237c23ec39c7afaa612c1647c5916d9834c1b3",
+  "vcsRevision" : "f0847d14587d0b7fbfe2e54524a6e52c98e165b1",
   "vcsUrl" : "https://github.com/sturmpunk/sturmpunk",
   "licenseControl" : {
     "runChecks" : false,
     "includePublishedArtifacts" : false,
     "autoDiscover" : true,
-    "scopesList" : "",
-    "licenseViolationsRecipientsList" : ""
+    "licenseViolationsRecipientsList" : "",
+    "scopesList" : ""
   },
   "buildRetention" : {
     "count" : -1,
@@ -39,8 +39,8 @@
     "id" : "com.mycompany.app:my-webapp:1.0-SNAPSHOT",
     "artifacts" : [ {
       "type" : "war",
-      "sha1" : "20f55735b84ca9036da1943d29e1100d2ed3f897",
-      "md5" : "20fbeba377ea408e6e12713caf91c398",
+      "sha1" : "a9a72456925ba885145d60083c6ee8b57097dea6",
+      "md5" : "a7e5c275adaf8b867bc128ba4fa5960f",
       "name" : "my-webapp-1.0-SNAPSHOT.war"
     }, {
       "type" : "pom",
