@@ -1,7 +1,7 @@
 {
   "version" : "1.0.1",
   "name" : "git_install",
-  "number" : "1",
+  "number" : "2",
   "type" : "MAVEN",
   "buildAgent" : {
     "name" : "Maven",
@@ -11,11 +11,10 @@
     "name" : "Jenkins",
     "version" : "2.46.2"
   },
-  "started" : "2017-05-06T12:45:19.524+0300",
-  "durationMillis" : 3541,
-  "principal" : "sturm",
+  "started" : "2017-05-06T12:49:01.820+0300",
+  "durationMillis" : 3305,
   "artifactoryPluginVersion" : "2.10.3",
-  "url" : "http://127.0.0.1:8888/job/git_install/1/",
+  "url" : "http://127.0.0.1:8888/job/git_install/2/",
   "vcs" : [ {
     "revision" : "f0847d14587d0b7fbfe2e54524a6e52c98e165b1",
     "url" : "f0847d14587d0b7fbfe2e54524a6e52c98e165b1"
@@ -39,8 +38,8 @@
     "id" : "com.mycompany.app:my-webapp:1.0-SNAPSHOT",
     "artifacts" : [ {
       "type" : "war",
-      "sha1" : "a9a72456925ba885145d60083c6ee8b57097dea6",
-      "md5" : "a7e5c275adaf8b867bc128ba4fa5960f",
+      "sha1" : "534fd4c958a623e635f80261a82a46f65a150bc1",
+      "md5" : "2ed00841ad1a1adae0097cf59488261e",
       "name" : "my-webapp-1.0-SNAPSHOT.war"
     }, {
       "type" : "pom",
