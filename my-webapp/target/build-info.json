@@ -1,0 +1,67 @@
+{
+  "version" : "1.0.1",
+  "name" : "git_install",
+  "number" : "14",
+  "type" : "MAVEN",
+  "buildAgent" : {
+    "name" : "Maven",
+    "version" : "3.3.9"
+  },
+  "agent" : {
+    "name" : "Jenkins",
+    "version" : "2.46.1"
+  },
+  "started" : "2017-04-20T11:26:41.052+0300",
+  "durationMillis" : 1487,
+  "principal" : "sturm",
+  "artifactoryPluginVersion" : "2.10.3",
+  "url" : "http://127.0.0.1:8888/job/git_install/14/",
+  "vcs" : [ {
+    "revision" : "59237c23ec39c7afaa612c1647c5916d9834c1b3",
+    "url" : "59237c23ec39c7afaa612c1647c5916d9834c1b3"
+  } ],
+  "vcsRevision" : "59237c23ec39c7afaa612c1647c5916d9834c1b3",
+  "vcsUrl" : "https://github.com/sturmpunk/sturmpunk",
+  "licenseControl" : {
+    "runChecks" : false,
+    "includePublishedArtifacts" : false,
+    "autoDiscover" : true,
+    "scopesList" : "",
+    "licenseViolationsRecipientsList" : ""
+  },
+  "buildRetention" : {
+    "count" : -1,
+    "deleteBuildArtifacts" : true,
+    "buildNumbersNotToBeDiscarded" : [ ]
+  },
+  "modules" : [ {
+    "properties" : { },
+    "id" : "com.mycompany.app:my-webapp:1.0-SNAPSHOT",
+    "artifacts" : [ {
+      "type" : "war",
+      "sha1" : "20f55735b84ca9036da1943d29e1100d2ed3f897",
+      "md5" : "20fbeba377ea408e6e12713caf91c398",
+      "name" : "my-webapp-1.0-SNAPSHOT.war"
+    }, {
+      "type" : "pom",
+      "sha1" : "5d225d01026e9df93b29c63c7c09c22a1e5d8132",
+      "md5" : "18a2431a72da07007f1d30e82510a7ff",
+      "name" : "my-webapp-1.0-SNAPSHOT.pom"
+    } ],
+    "dependencies" : [ {
+      "type" : "jar",
+      "sha1" : "99129f16442844f6a4a11ae22fbbee40b14d774f",
+      "md5" : "1f40fb782a4f2cf78f161d32670f7a3a",
+      "id" : "junit:junit:3.8.1",
+      "scopes" : [ "test" ]
+    } ]
+  } ],
+  "governance" : {
+    "blackDuckProperties" : {
+      "runChecks" : false,
+      "includePublishedArtifacts" : false,
+      "autoCreateMissingComponentRequests" : false,
+      "autoDiscardStaleComponentRequests" : false
+    }
+  }
+}
